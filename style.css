@@ -17,6 +17,10 @@ main {
   border-top: 8px solid hsl(0deg, 0%, 40%);
 }
 
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
 .max-width-wrapper {
   max-width: 800px;
   margin: 0 auto;
@@ -27,6 +31,7 @@ main {
 
 .card {
   background-color: white;
+  max-width: 750px;
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
   padding: 16px;
   margin-top: 56px;
@@ -37,7 +42,7 @@ main {
 
 .intro-chunk {
   width: fit-content;
-  max-width: 300px;
+  max-width: 330px;
   padding-bottom: 32px;
   padding-top: 64px;
 }
@@ -49,10 +54,6 @@ main {
   margin-top: -8px;
   margin-left: -24px;
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
-}
-
-strong {
-  color: hsl(160deg, 100%, 30%);
 }
 
 .title {
